@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29388FBF1E9CC61A003A04B6 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29388FBE1E9CC61A003A04B6 /* SecondVC.swift */; };
 		29E2D8B91E955E22002A981D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2D8B81E955E22002A981D /* AppDelegate.swift */; };
 		29E2D8BB1E955E22002A981D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2D8BA1E955E22002A981D /* ViewController.swift */; };
 		29E2D8BE1E955E22002A981D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E2D8BC1E955E22002A981D /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29388FBE1E9CC61A003A04B6 /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 		29E2D8B51E955E22002A981D /* Login Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Login Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29E2D8B81E955E22002A981D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29E2D8BA1E955E22002A981D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				29E2D8B81E955E22002A981D /* AppDelegate.swift */,
 				29E2D8BA1E955E22002A981D /* ViewController.swift */,
+				29388FBE1E9CC61A003A04B6 /* SecondVC.swift */,
 				29E2D8BC1E955E22002A981D /* Main.storyboard */,
 				29E2D8BF1E955E22002A981D /* Assets.xcassets */,
 				29E2D8C11E955E22002A981D /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29E2D8BB1E955E22002A981D /* ViewController.swift in Sources */,
+				29388FBF1E9CC61A003A04B6 /* SecondVC.swift in Sources */,
 				29E2D8B91E955E22002A981D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +304,7 @@
 				29E2D8C91E955E22002A981D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
