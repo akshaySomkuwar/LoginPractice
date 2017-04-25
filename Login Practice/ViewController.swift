@@ -24,6 +24,10 @@ class ViewController: UIViewController {
         if usernameTextField.text == "" || passwordTextField.text == ""
         {
             print("fill the fields")
+            let alert = UIAlertController.init(title: "Fill Error !", message: "fields should not be empty !", preferredStyle: .alert)
+            let action = UIAlertAction.init(title: "OK", style: .default, handler: nil)
+            alert.addAction(action)
+            self.present(alert, animated: true, completion: nil)
         }
         else if usernameTextField.text == passwordTextField.text
         {
@@ -32,6 +36,8 @@ class ViewController: UIViewController {
             self.present(SecondVC, animated: true, completion: nil)
             
         }
+        
+        
     
     func viewDidLoad() {
         

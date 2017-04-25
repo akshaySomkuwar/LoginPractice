@@ -10,15 +10,18 @@ import Foundation
 import UIKit
 
 class SecondVC: UIViewController {
+    var username = String()
     
+    @IBOutlet weak var usernameLabel: UILabel!
     @IBAction func exitButtonPressed(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil)
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        usernameLabel.text = username
         
-    }
+        }
 
 }
 
