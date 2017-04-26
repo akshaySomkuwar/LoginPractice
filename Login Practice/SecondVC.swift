@@ -30,11 +30,12 @@ class SecondVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         cell.thingName.text = nagpurPlaces[indexPath.row]
         cell.thingAddress.text = address[indexPath.row]
         
-        return (cell)
+        return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
        currentIndex = indexPath.row
+        performSegue(withIdentifier: "segueDetail", sender: nil)
     }
     
     

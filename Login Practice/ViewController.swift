@@ -10,7 +10,7 @@ import UIKit
 
 // MARK: Global data for ease
 
-var nagpurPlaces = ["Buldi", "Railway Station", "Ravi Nagar", "Dharampeth", "Nandanvan", "8 Rasta Chowk"]
+var nagpurPlaces = ["Buldi", "NGP Station", "Ravi Nagar", "Dharampeth", "Nandanvan", "8 Rasta Chowk"]
 var address = ["Buldi Market", "Nagpur Railway Station", "Ravi Nagar Sq", "Dharampeth Sq", "Nandanvan Sq", "8 Rasta Chowk"]
 var currentIndex = 0
 
