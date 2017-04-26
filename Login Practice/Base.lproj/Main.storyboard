@@ -49,6 +49,7 @@
                     <connections>
                         <outlet property="passwordTextField" destination="M04-Jh-tYG" id="6UO-vr-cED"/>
                         <outlet property="usernameTextField" destination="eMF-aT-5en" id="izS-Wu-eGD"/>
+                        <segue destination="rZM-fq-1wd" kind="show" identifier="segue" id="XGJ-95-kMf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -67,31 +68,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KCW-ka-XCc">
-                                <rect key="frame" x="123" y="178" width="71" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to hell" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m69-iL-Uo6">
+                                <rect key="frame" x="27" y="115" width="266" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" red="1" green="0.13469727024986455" blue="0.081003381276554154" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="neK-rh-HTG">
-                                <rect key="frame" x="143" y="387" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0d-Gd-J2A">
+                                <rect key="frame" x="143" y="227" width="34" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Exit"/>
+                                <state key="normal" title="Back"/>
                                 <connections>
-                                    <action selector="exitButtonPressed:" destination="rZM-fq-1wd" eventType="touchUpInside" id="kXg-OM-P86"/>
+                                    <action selector="BackButton:" destination="rZM-fq-1wd" eventType="touchUpInside" id="FSO-8H-UoA"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="enZ-hQ-R5b"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="usernameLabel" destination="KCW-ka-XCc" id="HXf-uJ-HSe"/>
+                        <outlet property="SecondVCLabel" destination="m69-iL-Uo6" id="3tD-s8-XFa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qUh-GO-MLP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="812" y="138"/>
+            <point key="canvasLocation" x="1121" y="138"/>
         </scene>
     </scenes>
 </document>

@@ -28,14 +28,20 @@ class ViewController: UIViewController {
             let action = UIAlertAction.init(title: "OK", style: .default, handler: nil)
             alert.addAction(action)
             self.present(alert, animated: true, completion: nil)
+        
         }
         else if usernameTextField.text == passwordTextField.text
         {
             print("access granted")
-            let SecondVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SecondVC")
-            self.present(SecondVC, animated: true, completion: nil)
+            self.performSegue(withIdentifier: "segue", sender: nil)
+//            let SecondVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SecondVC")
+//            self.present(SecondVC, animated: true, completion: nil)
+            
+
             
         }
+        
+       
         
         
     
