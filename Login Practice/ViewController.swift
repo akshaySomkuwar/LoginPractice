@@ -14,7 +14,7 @@ var nagpurPlaces = ["Buldi", "NGP Station", "Ravi Nagar", "Dharampeth", "Nandanv
 var address = ["Buldi Market", "Nagpur Railway Station", "Ravi Nagar Sq", "Dharampeth Sq", "Nandanvan Sq", "8 Rasta Chowk"]
 var currentIndex = 0
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
     //MARK: Properties and actions
     
@@ -40,31 +40,21 @@ class ViewController: UIViewController {
             self.performSegue(withIdentifier: "segue", sender: nil)
 //            let SecondVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SecondVC")
 //            self.present(SecondVC, animated: true, completion: nil)
-            
-
-            
         }
         
        
         
-        
-    
-    func viewDidLoad() {
+       func viewDidLoad() {
         
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        self.usernameTextField.delegate = self
+        //passwordTextField.delegate = self
     }
-
-    func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        self.view.endEditing(true)
-    }
+        
+        
     
-    
-    func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 
