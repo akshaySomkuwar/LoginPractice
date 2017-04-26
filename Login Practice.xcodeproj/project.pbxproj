@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		29388FBF1E9CC61A003A04B6 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29388FBE1E9CC61A003A04B6 /* SecondVC.swift */; };
+		29C7663A1EB0BC3C00A73272 /* ListCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C766391EB0BC3C00A73272 /* ListCellViewController.swift */; };
+		29C766411EB0C7D100A73272 /* 8 Rasta Chowk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29C7663B1EB0C7D100A73272 /* 8 Rasta Chowk.jpg */; };
+		29C766421EB0C7D100A73272 /* Buldi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29C7663C1EB0C7D100A73272 /* Buldi.jpg */; };
+		29C766431EB0C7D100A73272 /* Dharampeth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29C7663D1EB0C7D100A73272 /* Dharampeth.jpg */; };
+		29C766441EB0C7D100A73272 /* Nandanvan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29C7663E1EB0C7D100A73272 /* Nandanvan.jpg */; };
+		29C766461EB0C7D100A73272 /* Ravi Nagar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29C766401EB0C7D100A73272 /* Ravi Nagar.jpg */; };
 		29E2D8B91E955E22002A981D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2D8B81E955E22002A981D /* AppDelegate.swift */; };
 		29E2D8BB1E955E22002A981D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2D8BA1E955E22002A981D /* ViewController.swift */; };
 		29E2D8BE1E955E22002A981D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E2D8BC1E955E22002A981D /* Main.storyboard */; };
@@ -17,6 +23,12 @@
 
 /* Begin PBXFileReference section */
 		29388FBE1E9CC61A003A04B6 /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		29C766391EB0BC3C00A73272 /* ListCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCellViewController.swift; sourceTree = "<group>"; };
+		29C7663B1EB0C7D100A73272 /* 8 Rasta Chowk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8 Rasta Chowk.jpg"; sourceTree = "<group>"; };
+		29C7663C1EB0C7D100A73272 /* Buldi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Buldi.jpg; sourceTree = "<group>"; };
+		29C7663D1EB0C7D100A73272 /* Dharampeth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dharampeth.jpg; sourceTree = "<group>"; };
+		29C7663E1EB0C7D100A73272 /* Nandanvan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nandanvan.jpg; sourceTree = "<group>"; };
+		29C766401EB0C7D100A73272 /* Ravi Nagar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ravi Nagar.jpg"; sourceTree = "<group>"; };
 		29E2D8B51E955E22002A981D /* Login Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Login Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29E2D8B81E955E22002A981D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29E2D8BA1E955E22002A981D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +71,13 @@
 				29E2D8B81E955E22002A981D /* AppDelegate.swift */,
 				29E2D8BA1E955E22002A981D /* ViewController.swift */,
 				29388FBE1E9CC61A003A04B6 /* SecondVC.swift */,
+				29C766391EB0BC3C00A73272 /* ListCellViewController.swift */,
 				29E2D8BC1E955E22002A981D /* Main.storyboard */,
+				29C7663B1EB0C7D100A73272 /* 8 Rasta Chowk.jpg */,
+				29C7663C1EB0C7D100A73272 /* Buldi.jpg */,
+				29C7663D1EB0C7D100A73272 /* Dharampeth.jpg */,
+				29C7663E1EB0C7D100A73272 /* Nandanvan.jpg */,
+				29C766401EB0C7D100A73272 /* Ravi Nagar.jpg */,
 				29E2D8BF1E955E22002A981D /* Assets.xcassets */,
 				29E2D8C11E955E22002A981D /* LaunchScreen.storyboard */,
 				29E2D8C41E955E22002A981D /* Info.plist */,
@@ -128,8 +146,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				29E2D8C31E955E22002A981D /* LaunchScreen.storyboard in Resources */,
+				29C766431EB0C7D100A73272 /* Dharampeth.jpg in Resources */,
 				29E2D8C01E955E22002A981D /* Assets.xcassets in Resources */,
+				29C766441EB0C7D100A73272 /* Nandanvan.jpg in Resources */,
+				29C766421EB0C7D100A73272 /* Buldi.jpg in Resources */,
 				29E2D8BE1E955E22002A981D /* Main.storyboard in Resources */,
+				29C766411EB0C7D100A73272 /* 8 Rasta Chowk.jpg in Resources */,
+				29C766461EB0C7D100A73272 /* Ravi Nagar.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +165,7 @@
 			files = (
 				29E2D8BB1E955E22002A981D /* ViewController.swift in Sources */,
 				29388FBF1E9CC61A003A04B6 /* SecondVC.swift in Sources */,
+				29C7663A1EB0BC3C00A73272 /* ListCellViewController.swift in Sources */,
 				29E2D8B91E955E22002A981D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

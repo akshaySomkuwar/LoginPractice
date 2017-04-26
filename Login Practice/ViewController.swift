@@ -8,18 +8,21 @@
 
 import UIKit
 
+// MARK: Global data for ease
+
+var nagpurPlaces = ["Buldi", "Railway Station", "Ravi Nagar", "Dharampeth", "Nandanvan", "8 Rasta Chowk"]
+var address = ["Buldi Market", "Nagpur Railway Station", "Ravi Nagar Sq", "Dharampeth Sq", "Nandanvan Sq", "8 Rasta Chowk"]
+var currentIndex = 0
+
 class ViewController: UIViewController {
 
     //MARK: Properties and actions
     
     
     @IBOutlet weak var usernameTextField: UITextField!
-   
-    
     @IBOutlet weak var passwordTextField: UITextField!
-    
-      
     @IBAction func loginButtonPressed(_ sender: UIButton) {
+        
         print("pressed")
         if usernameTextField.text == "" || passwordTextField.text == ""
         {
