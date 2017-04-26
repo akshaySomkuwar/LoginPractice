@@ -16,6 +16,7 @@
 		29C766461EB0C7D100A73272 /* Ravi Nagar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29C766401EB0C7D100A73272 /* Ravi Nagar.jpg */; };
 		29C766481EB0CC6000A73272 /* NGP Station.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29C766471EB0CC6000A73272 /* NGP Station.jpg */; };
 		29C7664A1EB0D75D00A73272 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C766491EB0D75D00A73272 /* DetailViewController.swift */; };
+		29C7664C1EB0DA2C00A73272 /* Nagpur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29C7664B1EB0DA2C00A73272 /* Nagpur.jpg */; };
 		29E2D8B91E955E22002A981D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2D8B81E955E22002A981D /* AppDelegate.swift */; };
 		29E2D8BB1E955E22002A981D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E2D8BA1E955E22002A981D /* ViewController.swift */; };
 		29E2D8BE1E955E22002A981D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E2D8BC1E955E22002A981D /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 		29C766401EB0C7D100A73272 /* Ravi Nagar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ravi Nagar.jpg"; sourceTree = "<group>"; };
 		29C766471EB0CC6000A73272 /* NGP Station.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "NGP Station.jpg"; sourceTree = "<group>"; };
 		29C766491EB0D75D00A73272 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		29C7664B1EB0DA2C00A73272 /* Nagpur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nagpur.jpg; sourceTree = "<group>"; };
 		29E2D8B51E955E22002A981D /* Login Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Login Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29E2D8B81E955E22002A981D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29E2D8BA1E955E22002A981D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				29E2D8BC1E955E22002A981D /* Main.storyboard */,
 				29C7663B1EB0C7D100A73272 /* 8 Rasta Chowk.jpg */,
 				29C7663C1EB0C7D100A73272 /* Buldi.jpg */,
+				29C7664B1EB0DA2C00A73272 /* Nagpur.jpg */,
 				29C7663D1EB0C7D100A73272 /* Dharampeth.jpg */,
 				29C7663E1EB0C7D100A73272 /* Nandanvan.jpg */,
 				29C766471EB0CC6000A73272 /* NGP Station.jpg */,
@@ -157,6 +160,7 @@
 				29C766441EB0C7D100A73272 /* Nandanvan.jpg in Resources */,
 				29C766421EB0C7D100A73272 /* Buldi.jpg in Resources */,
 				29E2D8BE1E955E22002A981D /* Main.storyboard in Resources */,
+				29C7664C1EB0DA2C00A73272 /* Nagpur.jpg in Resources */,
 				29C766411EB0C7D100A73272 /* 8 Rasta Chowk.jpg in Resources */,
 				29C766461EB0C7D100A73272 /* Ravi Nagar.jpg in Resources */,
 				29C766481EB0CC6000A73272 /* NGP Station.jpg in Resources */,
