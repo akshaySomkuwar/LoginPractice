@@ -16,6 +16,16 @@ var currentIndex = 0
 
 class ViewController: UIViewController, UITextFieldDelegate {
 
+    override func viewDidLoad() {
+        
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.usernameTextField.delegate = self
+        //passwordTextField.delegate = self
+    }
+
+    
     //MARK: Properties and actions
     
     
@@ -34,7 +44,17 @@ class ViewController: UIViewController, UITextFieldDelegate {
             self.present(alert, animated: true, completion: nil)
         
         }
-        else if usernameTextField.text == passwordTextField.text
+            else if usernameTextField.text != passwordTextField.text
+        {
+            let alert = UIAlertController.init(title: "Fill Error !", message: "data doesnt match !", preferredStyle: .alert)
+            let action = UIAlertAction.init(title: "OK", style: .default, handler: nil)
+            alert.addAction(action)
+            self.resignFirstResponder()
+            self.present(alert, animated: true, completion: nil)
+
+        }
+            
+           else if usernameTextField.text == passwordTextField.text
         {
             print("access granted")
             self.performSegue(withIdentifier: "segue", sender: nil)
@@ -42,17 +62,15 @@ class ViewController: UIViewController, UITextFieldDelegate {
 //            self.present(SecondVC, animated: true, completion: nil)
         }
         
-       
+        func touchesBegan(_: Set<UITouch>, with: UIEvent?) {
+            print("wo")
+            self.view.endEditing(true)
+        }
         
-       func viewDidLoad() {
-        
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
-        self.usernameTextField.delegate = self
-        //passwordTextField.delegate = self
-    }
-        
+        func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+            usernameTextField.resignFirstResponder()
+            return true
+        }
         
     
 
