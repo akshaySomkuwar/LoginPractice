@@ -30,6 +30,7 @@ class ViewController: UIViewController {
             let alert = UIAlertController.init(title: "Fill Error !", message: "fields should not be empty !", preferredStyle: .alert)
             let action = UIAlertAction.init(title: "OK", style: .default, handler: nil)
             alert.addAction(action)
+            self.resignFirstResponder()
             self.present(alert, animated: true, completion: nil)
         
         }
