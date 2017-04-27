@@ -31,6 +31,17 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    
+    override func touchesBegan(_: Set<UITouch>, with: UIEvent?) {
+        print("touch detected")
+        self.view.endEditing(true)
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        usernameTextField.resignFirstResponder()
+        return true
+    }
+    
     @IBAction func loginButtonPressed(_ sender: UIButton) {
         
         print("pressed")
@@ -62,15 +73,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
 //            self.present(SecondVC, animated: true, completion: nil)
         }
         
-        func touchesBegan(_: Set<UITouch>, with: UIEvent?) {
-            print("wo")
-            self.view.endEditing(true)
-        }
         
-        func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-            usernameTextField.resignFirstResponder()
-            return true
-        }
         
     
 
