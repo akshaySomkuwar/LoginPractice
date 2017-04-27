@@ -11,12 +11,16 @@ import UIKit
 class DetailViewController: UIViewController {
 
     @IBOutlet weak var fullImage: UIImageView!
-    
+    @IBOutlet weak var backButtonOutlet: UIButton!
+    @IBOutlet weak var pLabel: UILabel!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        backButtonOutlet.layer.cornerRadius = 20
+        
+        pLabel.text = nagpurPlaces[currentIndex]
         fullImage.image = UIImage(named: "\(nagpurPlaces[currentIndex]).jpg")
 
         // Do any additional setup after loading the view.

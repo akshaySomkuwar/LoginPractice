@@ -21,6 +21,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        
+        usernameTextField.layer.cornerRadius = 15
+        passwordTextField.layer.cornerRadius = 15
+        loginButtonOutlet.layer.cornerRadius = 20
         self.usernameTextField.delegate = self
         //passwordTextField.delegate = self
     }
@@ -29,6 +33,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     //MARK: Properties and actions
     
     
+    @IBOutlet weak var loginButtonOutlet: UIButton!
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
