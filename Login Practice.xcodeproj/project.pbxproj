@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		29388FBF1E9CC61A003A04B6 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29388FBE1E9CC61A003A04B6 /* SecondVC.swift */; };
-		297623D11EB1CC0900B3EC5C /* IMG_2027.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 297623D01EB1CC0900B3EC5C /* IMG_2027.JPG */; };
 		29C7663A1EB0BC3C00A73272 /* ListCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C766391EB0BC3C00A73272 /* ListCellViewController.swift */; };
 		29C766411EB0C7D100A73272 /* 8 Rasta Chowk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29C7663B1EB0C7D100A73272 /* 8 Rasta Chowk.jpg */; };
 		29C766421EB0C7D100A73272 /* Buldi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29C7663C1EB0C7D100A73272 /* Buldi.jpg */; };
@@ -27,7 +26,6 @@
 
 /* Begin PBXFileReference section */
 		29388FBE1E9CC61A003A04B6 /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
-		297623D01EB1CC0900B3EC5C /* IMG_2027.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2027.JPG; sourceTree = "<group>"; };
 		29C766391EB0BC3C00A73272 /* ListCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCellViewController.swift; sourceTree = "<group>"; };
 		29C7663B1EB0C7D100A73272 /* 8 Rasta Chowk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8 Rasta Chowk.jpg"; sourceTree = "<group>"; };
 		29C7663C1EB0C7D100A73272 /* Buldi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Buldi.jpg; sourceTree = "<group>"; };
@@ -85,7 +83,6 @@
 				29C7663B1EB0C7D100A73272 /* 8 Rasta Chowk.jpg */,
 				29C7663C1EB0C7D100A73272 /* Buldi.jpg */,
 				29C7663D1EB0C7D100A73272 /* Dharampeth.jpg */,
-				297623D01EB1CC0900B3EC5C /* IMG_2027.JPG */,
 				29C7664D1EB0DCDB00A73272 /* Nagpur.png */,
 				29C7663E1EB0C7D100A73272 /* Nandanvan.jpg */,
 				29C766471EB0CC6000A73272 /* NGP Station.jpg */,
@@ -158,7 +155,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				29C7664E1EB0DCDB00A73272 /* Nagpur.png in Resources */,
-				297623D11EB1CC0900B3EC5C /* IMG_2027.JPG in Resources */,
 				29E2D8C31E955E22002A981D /* LaunchScreen.storyboard in Resources */,
 				29C766431EB0C7D100A73272 /* Dharampeth.jpg in Resources */,
 				29E2D8C01E955E22002A981D /* Assets.xcassets in Resources */,
