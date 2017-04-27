@@ -40,7 +40,7 @@
                                 <color key="textColor" red="0.96409488340000005" green="0.68049861889999996" blue="0.1337387203" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="  username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eMF-aT-5en">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eMF-aT-5en">
                                 <rect key="frame" x="16" y="171" width="288" height="30"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="textColor"/>
@@ -118,7 +118,7 @@
                                         <rect key="frame" x="0.0" y="28" width="320" height="131"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3xw-8x-SyJ" id="p7a-mR-ptC" customClass="ListCellViewController" customModule="Login_Practice" customModuleProvider="target">
-                                            <rect key="frame" x="0.0" y="0.0" width="287" height="130.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="131"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1sB-Vh-Kr9">
@@ -206,6 +206,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="0NH-vE-dmB" firstAttribute="top" secondItem="6ec-yc-BBJ" secondAttribute="bottom" constant="51" id="N6m-lB-gj1"/>
                             <constraint firstItem="SJn-f4-x00" firstAttribute="trailing" secondItem="pcK-cm-mdq" secondAttribute="trailing" id="OoA-lL-Bnb"/>
